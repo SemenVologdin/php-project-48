@@ -17,6 +17,12 @@ class GenDiff
 
         $arKeys = array_merge(array_keys($arJsonData1), array_keys($arJsonData2));
         $arKeys = array_unique($arKeys);
+        usort($arKeys, function($a, $b){
+            if ($a == $b) {
+                return 0;
+            }
+            return ($a < $b) ? -1 : 1;
+        });
 
         foreach ($arKeys as $strKey){
             $mixValue1 = $arJsonData1[$strKey];

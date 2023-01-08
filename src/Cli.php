@@ -2,8 +2,6 @@
 
 namespace App;
 
-//use Docopt;
-
 class Cli
 {
 

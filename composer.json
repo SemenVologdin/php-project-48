@@ -2,11 +2,13 @@
     "name": "hexlet/code",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Differ\\": "/"
         },
         "files": [
             "src/Cli.php",
-            "src/GenDiff.php"
+            "src/GenDiff.php",
+            "gendiff.php"
         ]
     },
     "authors": [
