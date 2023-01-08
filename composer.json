@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Cli.php",
+            "src/GenDiff.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vologdin Semen",
+            "email": "vologdin.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
